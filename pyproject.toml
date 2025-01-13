@@ -4,4 +4,12 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "google-genai>=0.4.0",
+    "numpy>=2.2.1",
+    "opencv-python>=4.10.0.84",
+    "pyaudio>=0.2.14",
+    "pydub>=0.25.1",
+    "python-dotenv>=1.0.1",
+    "scipy>=1.15.1",
+]
